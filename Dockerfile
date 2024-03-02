@@ -14,4 +14,4 @@ USER airflow
 #RUN pip install --no-cache-dir -r /requirements.txt
 
 #ENV AIRFLOW_HOME=/opt/airflow
-RUN pip install apache-airflow apache-airflow-providers-apache-spark pyspark
+RUN pip install spotipy panda load_dotenv apache-airflow apache-airflow-providers-apache-spark pyspark
