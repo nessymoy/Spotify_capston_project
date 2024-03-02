@@ -1,0 +1,384 @@
+[2024-03-02T10:46:09.051+0000] {processor.py:157} INFO - Started process (PID=173) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:46:09.056+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:46:09.059+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:46:09.059+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:46:09.067+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:46:09.065+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:46:09.067+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:46:09.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.038 seconds
+[2024-03-02T10:46:39.520+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:46:39.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:46:39.529+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:46:39.528+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:46:39.550+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:46:39.544+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:46:39.552+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:46:39.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.106 seconds
+[2024-03-02T10:47:09.876+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:47:09.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:47:09.879+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:47:09.878+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:47:09.889+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:47:09.887+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:47:09.889+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:47:09.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.038 seconds
+[2024-03-02T10:47:40.336+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:47:40.338+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:47:40.339+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:47:40.338+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:47:40.357+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:47:40.350+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:47:40.359+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:47:40.390+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.061 seconds
+[2024-03-02T10:48:10.755+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:48:10.757+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:48:10.759+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:48:10.758+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:48:10.771+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:48:10.770+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:48:10.772+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:48:10.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.048 seconds
+[2024-03-02T10:48:41.059+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:48:41.060+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:48:41.061+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:48:41.060+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:48:41.069+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:48:41.067+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:48:41.070+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:48:41.105+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.049 seconds
+[2024-03-02T10:49:11.435+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:49:11.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:49:11.441+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:49:11.440+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:49:11.451+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:49:11.449+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:49:11.451+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:49:11.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.054 seconds
+[2024-03-02T10:49:41.752+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:49:41.754+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:49:41.755+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:49:41.755+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:49:41.781+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:49:41.779+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:49:41.782+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:49:41.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.059 seconds
+[2024-03-02T10:50:09.070+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:50:09.071+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:50:09.072+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:50:09.071+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:50:09.084+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:50:09.082+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:50:09.085+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:50:09.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.068 seconds
+[2024-03-02T10:50:39.486+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:50:39.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:50:39.489+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:50:39.488+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:50:39.498+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:50:39.496+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:50:39.498+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:50:39.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.058 seconds
+[2024-03-02T10:51:10.006+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:51:10.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:51:10.010+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:51:10.009+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:51:10.022+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:51:10.020+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:51:10.023+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:51:10.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.061 seconds
+[2024-03-02T10:51:40.359+0000] {processor.py:157} INFO - Started process (PID=228) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:51:40.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:51:40.362+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:51:40.361+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:51:40.372+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:51:40.370+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:51:40.373+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:51:40.393+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.039 seconds
+[2024-03-02T10:52:10.727+0000] {processor.py:157} INFO - Started process (PID=233) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:52:10.729+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:52:10.730+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:52:10.730+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:52:10.742+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:52:10.740+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:52:10.742+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:52:10.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.043 seconds
+[2024-03-02T10:52:41.073+0000] {processor.py:157} INFO - Started process (PID=238) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:52:41.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:52:41.077+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:52:41.076+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:52:41.102+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:52:41.097+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:52:41.104+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:52:41.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.070 seconds
+[2024-03-02T10:53:11.430+0000] {processor.py:157} INFO - Started process (PID=243) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:53:11.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:53:11.433+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:53:11.432+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:53:11.445+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:53:11.443+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:53:11.445+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:53:11.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.068 seconds
+[2024-03-02T10:53:41.789+0000] {processor.py:157} INFO - Started process (PID=248) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:53:41.792+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:53:41.793+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:53:41.793+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:53:41.808+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:53:41.807+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:53:41.809+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:53:41.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.064 seconds
+[2024-03-02T10:54:12.136+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:54:12.138+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:54:12.140+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:54:12.139+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:54:12.154+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:54:12.152+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:54:12.154+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:54:12.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.057 seconds
+[2024-03-02T10:54:42.485+0000] {processor.py:157} INFO - Started process (PID=258) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:54:42.486+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:54:42.487+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:54:42.487+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:54:42.499+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:54:42.497+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:54:42.500+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:54:42.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.067 seconds
+[2024-03-02T10:55:12.874+0000] {processor.py:157} INFO - Started process (PID=263) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:55:12.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:55:12.886+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:55:12.881+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:55:12.909+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:55:12.907+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:55:12.910+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:55:12.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.069 seconds
+[2024-03-02T10:55:43.261+0000] {processor.py:157} INFO - Started process (PID=268) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:55:43.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:55:43.272+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:55:43.264+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:55:43.293+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:55:43.291+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:55:43.293+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:55:43.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.064 seconds
+[2024-03-02T10:56:13.743+0000] {processor.py:157} INFO - Started process (PID=273) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:56:13.746+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:56:13.747+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:56:13.746+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:56:13.769+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:56:13.760+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:56:13.771+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:56:13.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.070 seconds
+[2024-03-02T10:56:44.092+0000] {processor.py:157} INFO - Started process (PID=278) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:56:44.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:56:44.096+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:56:44.095+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:56:44.104+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:56:44.103+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:56:44.105+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:56:44.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.049 seconds
+[2024-03-02T10:57:14.518+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:57:14.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:57:14.522+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:57:14.521+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:57:14.536+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:57:14.535+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:57:14.537+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:57:14.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.066 seconds
+[2024-03-02T10:57:44.915+0000] {processor.py:157} INFO - Started process (PID=288) to work on /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:57:44.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-03-02T10:57:44.920+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:57:44.919+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:57:44.937+0000] {logging_mixin.py:151} INFO - [2024-03-02T10:57:44.931+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/spark_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/spark_airflow.py", line 13, in <module>
+    from jobs.spotify_data import generate_spotify_data
+  File "/opt/airflow/dags/jobs/spotify_data.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2024-03-02T10:57:44.938+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-03-02T10:57:44.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_airflow.py took 0.073 seconds
