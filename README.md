@@ -17,4 +17,6 @@
   5. ETL automation: schedule the ETL process to run daily at 10pm.
 
 ## Implementation Process.
+![Uploading Image 06-03-2024 at 19.31.jpg…]()
+
 
