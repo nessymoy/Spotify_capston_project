@@ -6,6 +6,8 @@
 ### This project implements an ETL(Extract, Transform, Load) pipeline for retrieving data from the Spotify API, transforming it, and loading it into AWS S3 . 
 
 ## Architecture
+![Image 02-03-2024 at 11 39](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/b0833c05-f2d8-414b-819b-621e5f495c2d)
+
 
 
 ## The Stages of the project.
@@ -17,7 +19,7 @@
   5. ETL automation: schedule the ETL process to run daily at 10pm.
 
 ## Implementation Process.
-![Image 02-03-2024 at 11 39](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/b0833c05-f2d8-414b-819b-621e5f495c2d)
+
 
 
 
