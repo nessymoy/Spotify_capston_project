@@ -19,7 +19,6 @@
   5. ETL automation: schedule the ETL process to run daily at 10pm.
 
 
-## Implementation Process.
 ![Image 06-03-2024 at 19 31](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/02556c54-2953-4d34-89d4-4bcb85b6c9f0)
 
 
