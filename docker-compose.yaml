@@ -14,7 +14,7 @@ x-airflow-common: &airflow-common
   env_file:
     - airflow.env
   volumes:
-    - ./jobs:/opt/airflow/jobs
+    - ./dags/jobs:/opt/airflow/dags/jobs
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
   depends_on:

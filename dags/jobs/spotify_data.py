@@ -1,10 +1,11 @@
 import os
+
+import pandas as pd
 from dotenv import load_dotenv
 import requests
 import time
-from pandas import json_normalize
 
-# %%
+
 load_dotenv()
 
 client_id = os.environ.get('SPOTIFY_CLIENT_ID')
