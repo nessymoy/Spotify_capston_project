@@ -1,4 +1,4 @@
-# CAPSTONE PROJECT Spotify . 
+# CAPSTONE PROJECT Spotify 
 ### Enhancing Spotify's Music Analytics Platform
 ## Overview
 
