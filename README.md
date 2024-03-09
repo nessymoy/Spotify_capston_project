@@ -10,8 +10,6 @@ Data was extracted out of the Spotify API using
 ## Architecture
 ![Image 02-03-2024 at 11 39](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/b0833c05-f2d8-414b-819b-621e5f495c2d)
 
-
-
 ## The Stages of the project.
   1. INTEGRATION: Spotify API obtain detailed information about artists, tracks, albums, user interactions and playlists.
   2. ETL PROCESS extract data from Spotify using API key.
@@ -27,6 +25,6 @@ Data was extracted out of the Spotify API using
 ## Entity relationship Diagram.(ERD)
 ![Image 02-03-2024 at 11 47](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/95af28d7-64f4-4a9d-94fc-e116813b05fe)
 
-
+<img width="1418" alt="Screenshot 2024-03-07 at 18 52 24" src="https://github.com/nessymoy/Spotify_capston_project/assets/136928658/bcb37cd0-8c1f-46bc-b135-78e35d505afc">
 
 
