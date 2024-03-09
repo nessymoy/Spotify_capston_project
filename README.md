@@ -12,7 +12,7 @@
   4. Load: store transformed data into the PostgresSQL data warehouse Data should be constant and accurate
 5. ETL automation: schedule the ETL process to run daily at 10pm.
 6. Load data from AWS S3 to Amazon Redshift.
-![Image 06-03-2024 at 19 31](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/02556c54-2953-4d34-89d4-4bcb85b6c9f0)
+
 ## Entity relationship Diagram.(ERD)
 ![Image 02-03-2024 at 11 47](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/95af28d7-64f4-4a9d-94fc-e116813b05fe)
 
