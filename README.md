@@ -14,7 +14,7 @@
 6. Load data from AWS S3 to Amazon Redshift.
 
 ## Entity relationship Diagram.(ERD)
-![Image 02-03-2024 at 11 47](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/95af28d7-64f4-4a9d-94fc-e116813b05fe)
+<img width="525" alt="Screenshot 2024-03-16 at 20 11 11" src="https://github.com/nessymoy/Spotify_capston_project/assets/136928658/8d20344e-7f86-4099-bf82-ba20efe00c6b">
 
 ## Limitations
 1. Spotify wont allow to pull data mutliple time becuase of their securtiy reasons.
