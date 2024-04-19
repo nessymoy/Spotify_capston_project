@@ -10,16 +10,12 @@ load_dotenv()
 
 client_id = os.environ.get('SPOTIFY_CLIENT_ID')
 client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
-# %% md
 
-# %%
+
+
 
 import json
-
-genres = ['R&B']
-
-
-# genres = ['Gospel', 'R&B', 'pop', 'rock', 'hip-hop', 'jazz', 'country', 'electronic', 'classical', 'reggae', 'blues', 'folk','indie', 'metal', 'punk', 'soul', 'disco', 'funk', 'ambient', 'techno']
+genres = ['Gospel', 'R&B', 'pop', 'rock', 'hip-hop']
 
 # Get an access token from Spotify
 def get_access_token(client_id, client_secret):
