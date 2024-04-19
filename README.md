@@ -18,6 +18,6 @@
 
 ## Limitations
 1. Spotify wont allow to pull data mutliple time becuase of their securtiy reasons.
-2. Airflow was a better choice than Amazon Redshift when laoding data. There are mutiple steps to follow when loaning dta in AWS S3 to Redshift hence loading to errors.
+2. Airflow was a better choice than Amazon Redshift when laoding data. There are mutiple steps to follow when loading data in AWS S3 to Redshift hence loading to errors.
 <img width="1418" alt="Screenshot 2024-03-07 at 18 52 24" src="https://github.com/nessymoy/Spotify_capston_project/assets/136928658/bcb37cd0-8c1f-46bc-b135-78e35d505afc">
 
