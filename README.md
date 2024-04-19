@@ -16,9 +16,9 @@
 ## Entity relationship Diagram.(ERD)
 <img width="525" alt="Screenshot 2024-03-16 at 20 11 11" src="https://github.com/nessymoy/Spotify_capston_project/assets/136928658/8d20344e-7f86-4099-bf82-ba20efe00c6b">
 
-## Limitations
+## Results
 1. Spotify wont allow to pull data mutliple time becuase of their securtiy reasons.
-2. Airflow was a better choice than Amazon Redshift when laoding data. There are mutiple steps to follow when loading data in AWS S3 to Redshift hence loading to errors.
+2. The number of calls made to spotify was huge therefore it took longer to read and collect the data.
 <img width="1418" alt="Screenshot 2024-03-07 at 18 52 24" src="https://github.com/nessymoy/Spotify_capston_project/assets/136928658/bcb37cd0-8c1f-46bc-b135-78e35d505afc">
-
+3. From the data collected from spotify, I was able to load the data to AWS and create tables as shown below.
 ![Image 19-04-2024 at 20 13](https://github.com/nessymoy/Spotify_capston_project/assets/136928658/f0f34251-4fb3-4655-8d6f-517b647a4238)
